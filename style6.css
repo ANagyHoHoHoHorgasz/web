@@ -1,0 +1,29 @@
+
+
+.cards {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.card {
+    flex:1 1 calc(32% - 30px);
+}
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
